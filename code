@@ -1,11 +1,11 @@
 cls
 @echo off
-title Folder Locker
+title Folder-Locker by Enderman
 IF EXIST "Control Panel.{21EC2020-3AEA-1069-A2DD-08002B303­­­­­09D}" GOTO UNLOCK
 IF NOT EXIST Locker GOTO MDLOCKER
-echo Folder Created.
+echo Cakam na odpoved.
 :CONFIRM
-echo Are you sure you want to lock the folder? (Y/N)
+echo Vazne chcete zablokovat priecinok? (Y/N)
 set/p "cho="
 IF %cho%==Y GOTO LOCK
 IF %cho%==y GOTO LOCK
@@ -16,22 +16,22 @@ GOTO CONFIRM
 :LOCK
 ren Locker "Control Panel.{21EC2020-3AEA-1069-A2DD-08002B303­­­­­09D}"
 attrib +h +s "Control Panel.{21EC2020-3AEA-1069-A2DD-08002B303­­­­­09D}"
-echo Folder Locked.
+echo Priecinok zamknuty.
 GOTO END
 :UNLOCK
-echo Enter password to unlock the Folder :
+echo Zadajte heslo :
 set/p "pass="
-IF NOT %pass% == VASEHESLO! GOTO FAIL
+IF NOT %pass% == SEMZADAJTEVASEHESLO! GOTO FAIL
 attrib -h -s "Control Panel.{21EC2020-3AEA-1069-A2DD-08002B303­­­­­09D}"
 ren "Control Panel.{21EC2020-3AEA-1069-A2DD-08002B303­­­­­09D}" Locker
-echo Folder Unlocked Successfully.
+echo Priecinok uspesne odomknuty.
 GOTO END
 :FAIL
-echo Invalid Password!
+echo Nespravne heslo!
 GOTO END
 :MDLOCKER
 md Locker
-echo Folder created.
+echo Priecinok vytvoreny.
 GOTO END
 :END
 PAUSE
