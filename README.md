@@ -13,7 +13,7 @@ Skopírujte kód. A prilepte ho do Notepadu.
 
 # Krok 3.
 
-Vyhľadajte slovo ''VASEHESLO!'' a prepíšte toto slovo na heslo ktoré chcete použiť pri odomykaní priečinku.
+Vyhľadajte slovo ''SEMZADAJTEVASEHESLO!'' a prepíšte toto slovo na heslo ktoré chcete použiť pri odomykaní priečinku. (napr.itsme)
 
 # Krok 4.
 
@@ -34,3 +34,4 @@ Gratulujem!!
 Máte zaheslovaný priečinok.
 
 Ak chcete heslo zmeniť tak nás kontaktujte cez github alebo cez mail endsyssoftware@yahoo.com
+Ak máte iné problémy tak nás kontaktujte.
