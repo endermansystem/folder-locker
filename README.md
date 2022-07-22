@@ -33,5 +33,5 @@ Do priečinku vložte súbory ktoré chcete zamknúť.
 Gratulujem!!
 Máte zaheslovaný priečinok.
 
-Ak chcete heslo zmeniť tak nás kontaktujte cez github alebo cez mail endsyssoftware@yahoo.com
+Ak chcete heslo zmeniť tak nás kontaktujte cez github alebo cez mail piginteractivesupport@protonmail.com
 Ak máte iné problémy tak nás kontaktujte.
